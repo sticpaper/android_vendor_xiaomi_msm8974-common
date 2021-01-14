@@ -201,7 +201,7 @@ android_app_import {
 	apk: "proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: true,
+		enabled: false,
 	},
 	privileged: true,
 }
@@ -212,7 +212,7 @@ android_app_import {
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: true,
+		enabled: false,
 	},
 	soc_specific: true,
 }
@@ -223,7 +223,7 @@ android_app_import {
 	apk: "proprietary/vendor/app/shutdownlistener/shutdownlistener.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: true,
+		enabled: false,
 	},
 	soc_specific: true,
 }
